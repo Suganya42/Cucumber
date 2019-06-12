@@ -10,7 +10,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 
-public class AddCustomerStep {
+public class CustomerAdding {
 	static WebDriver driver; 
 	@Given("The user is in telecom home page")
 	public void the_user_is_in_telecom_home_page() {

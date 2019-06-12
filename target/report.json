@@ -1,0 +1,704 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47926863211,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Customer navigates to the add tariff plan to customer page",
+            "match": {
+              "location": "CustomerTariffPlan.customer_navigates_to_the_add_tariff_plan_to_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9861401681,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Customer enter the customer id and click submit button",
+            "match": {
+              "location": "CustomerTariffPlan.customer_enter_the_customer_id_and_click_submit_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "387498"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6103032762,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click the button called add tariff plan to customer",
+            "match": {
+              "location": "CustomerTariffPlan.user_click_the_button_called_add_tariff_plan_to_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63250383,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should get the tariff planed assigned message",
+            "match": {
+              "location": "CustomerTariffPlan.user_should_get_the_tariff_planed_assigned_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/AddTarifCustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35334321734,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to navigate to the add tarif plan page",
+            "match": {
+              "location": "TariffPlan.user_need_to_navigate_to_the_add_tarif_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 761982306,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill the informations\"7000\",\"100\",\"200\",\"300\",\"40\",\"50\",\"60\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7000\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"100\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"40\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"50\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"60\"",
+                  "offset": 61
+                }
+              ],
+              "location": "TariffPlan.user_fill_the_informations(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11575803159,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "USer click the submit button",
+            "match": {
+              "location": "TariffPlan.user_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58458038,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Successfully tarif plan added",
+            "match": {
+              "location": "TariffPlan.successfully_tarif_plan_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26773475462,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to navigate to the add tarif plan page",
+            "match": {
+              "location": "TariffPlan.user_need_to_navigate_to_the_add_tarif_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3157777322,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill the informations\"9000\",\"200\",\"300\",\"400\",\"50\",\"60\",\"70\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9000\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"50\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"60\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"70\"",
+                  "offset": 61
+                }
+              ],
+              "location": "TariffPlan.user_fill_the_informations(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11753830170,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "USer click the submit button",
+            "match": {
+              "location": "TariffPlan.user_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45508747,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Successfully tarif plan added",
+            "match": {
+              "location": "TariffPlan.successfully_tarif_plan_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25551129249,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to navigate to the add tarif plan page",
+            "match": {
+              "location": "TariffPlan.user_need_to_navigate_to_the_add_tarif_plan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4227284845,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill the informations\"4000\",\"300\",\"400\",\"500\",\"60\",\"70\",\"80\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4000\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"300\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"400\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"500\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"60\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"70\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"80\"",
+                  "offset": 61
+                }
+              ],
+              "location": "TariffPlan.user_fill_the_informations(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4353313065,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "USer click the submit button",
+            "match": {
+              "location": "TariffPlan.user_click_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47229544,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Successfully tarif plan added",
+            "match": {
+              "location": "TariffPlan.successfully_tarif_plan_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/AddTarifPlan.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Cstomer adding to telecom",
+        "description": "",
+        "id": "title-of-your-feature;cstomer-adding-to-telecom",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12762309527,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in telecom home page",
+            "match": {
+              "location": "CustomerAdding.the_user_is_in_telecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16019701112,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user click on add customer",
+            "match": {
+              "location": "CustomerAdding.the_user_click_on_add_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6668452427,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is filling all the fields",
+            "match": {
+              "location": "CustomerAdding.user_is_filling_all_the_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2410971336,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on submit button",
+            "match": {
+              "location": "CustomerAdding.user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195182537,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should be displayed the customer id",
+            "match": {
+              "location": "CustomerAdding.the_user_should_be_displayed_the_customer_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/CustomerAdding.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31092737329,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to click the add customer button to navigate",
+            "match": {
+              "location": "DataPassing.user_need_to_click_the_add_customer_button_to_navigate()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7785946434,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User filling all the vaild details in fields",
+            "match": {
+              "location": "DataPassing.user_filling_all_the_vaild_details_in_fields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FirstName",
+                  "Selenium"
+                ]
+              },
+              {
+                "cells": [
+                  "LastName",
+                  "Test"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "sel@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Address",
+                  "OMR"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "0987654321"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7053659438,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click the button called add customer",
+            "match": {
+              "location": "DataPassing.user_click_the_button_called_add_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215357157,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User get the customer id in end",
+            "match": {
+              "location": "DataPassing.user_get_the_customer_id_in_end()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/DataPassing.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62139418779,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to the pay billing page",
+            "match": {
+              "location": "BillPaying.user_navigates_to_the_pay_billing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10040912254,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the id and click submit button",
+            "match": {
+              "location": "BillPaying.user_enters_the_id_and_click_submit_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "387498"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48256441,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User succesfully getting the pay billing details",
+            "match": {
+              "location": "BillPaying.user_succesfully_getting_the_pay_billing_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/PayBilling.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17782544298,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User need to click the add customer button",
+            "match": {
+              "location": "Steps.user_need_to_click_the_add_customer_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3298029071,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User filling all the vaild details",
+            "match": {
+              "location": "Steps.user_filling_all_the_vaild_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Test",
+                  "Selenium",
+                  "test@gmail.com",
+                  "Chennai",
+                  "1234567890"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4919199502,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click the button add customer",
+            "match": {
+              "location": "Steps.user_click_the_button_add_customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57526902,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User get the customer id",
+            "match": {
+              "location": "Steps.user_get_the_customer_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Steps.feature",
+    "tags": []
+  }
+]
